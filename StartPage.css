@@ -178,5 +178,9 @@ width: 100%;
     width: 45%;
     height: 100%;
     background: transparent;
-    border: 2px solid red;
+    transition: 3s;
+}
+.home-imgHover:hover{
+    background: var(--background);
+    opacity: .8;
 }
